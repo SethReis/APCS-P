@@ -18,16 +18,21 @@
       renderer.setSize(window.innerWidth, window.innerHeight);
       document.body.appendChild(renderer.domElement);
 
+			var group = new THREE.Group();
 			var geometry = new THREE.SphereGeometry(2, 32, 32);
-			var material = new THREE.MeshBasicMaterial( {color: 0xffff00} );
-			var sphere = new THREE.Mesh(geometry, material);
-			scene.add(sphere);
+			var lineMaterial = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.5});
+			var meshMaterial = new THREE.MeshBasicMaterial({ color: 0x156289});
+			group.add(new THREE.Mesh(geometry, meshMaterial));
+			group.add(new THREE.LineSegments(geometry, lineMaterial));
+
+			scene.add(group);
       camera.position.z = 5;
 
       function animate(){
         requestAnimationFrame(animate);
-        sphere.rotation.x += 0.01;
-        sphere.rotation.y += 0.01;
+        group.rotation.x += 0.01;
+        group.rotation.y += 0.01;
+				group.rotation.z += 0.01;
         renderer.render(scene, camera);
       }
       animate();
