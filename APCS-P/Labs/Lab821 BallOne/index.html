@@ -12,6 +12,9 @@
 		<script src="js/three.js"></script>
 		<script>
 			// Our Javascript will go here.
+			var changeValueX = 0.01;
+			var changeValueY = 0.02;
+			var changeValueZ = 0.03;
       var scene = new THREE.Scene();
       var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
       var renderer = new THREE.WebGLRenderer();
@@ -19,20 +22,33 @@
       document.body.appendChild(renderer.domElement);
 
 			var group = new THREE.Group();
-			var geometry = new THREE.SphereGeometry(2, 32, 32);
-			var lineMaterial = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.5});
+			var geometry = new THREE.SphereGeometry(0.35, 32, 32);
+			var lineMaterial = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.1});
 			var meshMaterial = new THREE.MeshBasicMaterial({ color: 0x156289});
 			group.add(new THREE.Mesh(geometry, meshMaterial));
 			group.add(new THREE.LineSegments(geometry, lineMaterial));
-
 			scene.add(group);
-      camera.position.z = 5;
+			camera.position.x = .5;
+			camera.position.y = .3;
+      camera.position.z = 2.5;
 
       function animate(){
         requestAnimationFrame(animate);
         group.rotation.x += 0.01;
         group.rotation.y += 0.01;
 				group.rotation.z += 0.01;
+				group.position.x = group.position.x + changeValueX;
+				if(group.position.x >= window.innerWidth/window.innerHeight || group.position.x <= -1){
+					changeValueX = -changeValueX;
+				}
+				group.position.y = group.position.y + changeValueY;
+				if(group.position.y >= (window.innerWidth/window.innerHeight)-.5 || group.position.y <= 0){
+					changeValueY = -changeValueY;
+				}
+				group.position.z = group.position.z + changeValueZ;
+				if(group.position.z >= window.innerWidth/window.innerHeight || group.position.z <= 0){
+					changeValueZ = -changeValueZ;
+				}
         renderer.render(scene, camera);
       }
       animate();
