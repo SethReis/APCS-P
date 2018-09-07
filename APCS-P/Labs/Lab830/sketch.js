@@ -24,8 +24,9 @@ function draw() {
 function Shape() {
   this.rad = random(15, 30);
   this.loc = createVector(random(-(width/2)+this.rad, (width/2)-this.rad), random(-(height/2)+this.rad, (height/2)-this.rad));
-  this.vel = createVector(3, 3);
-  //this.acc = createVector(0, random(0.1, 0.9));
+  //this.vel = createVector(3, 3);
+  this.vel = createVector(random(-7.5, 7.5), random(-5, 5));
+  this.acc = createVector(0, random(0.1, 0.9));
   this.color = [random(0, 255), random(0, 255), random(0, 255)];
 
   this.checkEdges = function() {
@@ -33,13 +34,13 @@ function Shape() {
       this.vel.x = -this.vel.x;
     }
     if(this.loc.y >= (height/2)-this.rad || this.loc.y <= this.rad-(height/2)){
-      this.vel.y = -(this.vel.y/*-this.acc.y*/);
+      this.vel.y = -(this.vel.y-this.acc.y);
     }
   }
 
   this.update = function() {
     this.loc.add(this.vel);
-    //this.vel.add(this.acc);
+    this.vel.add(this.acc);
     translate(this.loc.x, this.loc.y);
   }
 
