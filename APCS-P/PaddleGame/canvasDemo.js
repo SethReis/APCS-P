@@ -4,6 +4,7 @@ window.onload = init; // Wait for the page to load before we begin animation
 var canvas;
 var ctx;// This is a better name for a global variable
 var balls = new Array();
+var paddle = new Paddle();
 
 function init(){
   //get the canvas
@@ -12,7 +13,7 @@ function init(){
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
   canvas.style.border = 'solid black 2px';
-  canvas.style.backgroundColor = 'rgba(142, 142, 142,1.0)';
+  canvas.style.backgroundColor = 'rgba(0, 0, 0,1.0)';
   // get the context
   ctx = canvas.getContext('2d'); // This is the context
   for(var i = 0; i < 2; i++){
@@ -47,16 +48,21 @@ function animate(){
     ball.y += ball.dy;
     ball.dy += 0.5;
       }
-    
+
 }
 
-function Ball(x,y){
-  //this.x = Math.random()*innerWidth + 100;
-  //this.y = Math.random()*innerHeight + 100;
-  this.x = 1000;
+function Ball(){
+  this.x = Math.random()*innerWidth + 100;
+  // this.y = Math.random()*innerHeight + 100;
+  //this.x = 1000;
   this.y = 100;
   this.dx = Math.random()*10-5;
   this.dy = Math.random()*10-5;
   this.rad = Math.random()*10+10;
   this.c = 'rgba(' + Math.floor(Math.random()*225) + ',' + Math.floor(Math.random()*225) + ',' + Math.floor(Math.random()*225) + ',' + Math.random() + ')';
+}
+
+function Paddle(){
+  this.x = 1000;
+  this.y = 800;
 }
