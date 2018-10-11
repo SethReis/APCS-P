@@ -5,6 +5,7 @@ var canvas;
 var ctx;// This is a better name for a global variable
 var balls = new Array();
 var paddle = new Paddle();
+var count = 0;
 
 function init(){
   //get the canvas
@@ -16,7 +17,7 @@ function init(){
   canvas.style.backgroundColor = 'rgba(0, 0, 0,1.0)';
   // get the context
   ctx = canvas.getContext('2d'); // This is the context
-  for(var i = 0; i < 2; i++){
+  for(var i = 0; i < 100; i++){
     balls.push(new Ball());
   }
 
@@ -43,21 +44,22 @@ function animate(){
     ctx.fill();
     ctx.strokeStyle = ball.c;
     ctx.stroke();
-    if(ball.x + ball.rad >= innerWidth || ball.x -ball.rad <= 0){
+    if(ball.x + ball.rad >= innerWidth-ball.dx || ball.x -ball.rad <= 0){
       ball.dx = -(ball.dx);
     }
-    if(ball.y + ball.rad >= innerHeight || ball.y - ball.rad <= 0){
+    if(ball.y + ball.rad >= innerHeight-ball.dy || ball.y - ball.rad <= 0){
       ball.dy = - (ball.dy / 1.1);
     }
     ball.x += ball.dx
     ball.y += ball.dy;
     ball.dy += 0.5;
 
-    if((ball.y + ball.rad) - (paddle.y - paddle.h) >= 0
-    && (ball.y - ball.rad) - (paddle.y + paddle.h) >= 0
-    && (ball.x + ball.rad) - (paddle.x - paddle.w) >= 0
-    && (ball.x - ball.rad) - (paddle.x + paddle.w) >= 0){
+    if((ball.y - ball.rad) - (paddle.y - paddle.h) >= 0
+    && (ball.y + ball.rad) - (paddle.y + paddle.h) <= 0
+    && (ball.x - ball.rad) - (paddle.x - paddle.w) >= 0
+    && (ball.x + ball.rad) - (paddle.x + paddle.w) <= 0){
       balls.splice(i, 1);
+      count++;
     }
   }
   ctx.beginPath();
@@ -67,10 +69,13 @@ function animate(){
   ctx.strokeStyle = paddle.c;
   ctx.stroke();
   paddle.x = mouseX;
+
+  ctx.font = "30px Arial";
+  ctx.fillText("Score: " + count, 10, 50);
 }
 
 function Ball(){
-  this.x = Math.random()*innerWidth + 100;
+  this.x = Math.random()*(innerWidth-40)+20;
   // this.y = Math.random()*innerHeight + 100;
   // this.x = 1000;
   this.y = 100;
