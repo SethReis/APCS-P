@@ -25,7 +25,7 @@ function init(){
     mouseX = event.offsetX;
   }, false);
 
-
+  lengs = balls.length;
   animate(); // Call to your animate function
 }
 
@@ -65,7 +65,8 @@ function animate(){
       //if moving up
       if (ball.dy < 0){
         balls.splice(0, balls.length);
-        for(var i = 0; i < 25; i++){
+        lengs = lengs + 5;
+        for(var i = 0; i < lengs; i++){
           balls.push(new Ball());
         }
         count = 0;
