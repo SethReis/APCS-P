@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 300px;
+  margin-top: 0px;
+}
+</style>
+</head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+var h = prompt("Please enter the number of hours", "0");
+var m = prompt("Please enter the number of minutes", "0");
+var s = prompt("Please enter the number of seconds", "0");
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = h + "h "
+    + m+ "m " + s + "s ";
+
+    // If the count down is over, write some text
+    if (h == 0 && m == 0 & s == 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    } else if (m == 0 && s == 0) {
+        h = h - 1;
+        m = 59;
+        s = 59;
+    } else if (s == 0){
+      m = m - 1;
+      s = 59;
+    } else {
+      s = s - 1;
+    }
+}, 1000);
+</script>
+
+</body>
+</html>

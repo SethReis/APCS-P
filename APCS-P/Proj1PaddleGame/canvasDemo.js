@@ -51,7 +51,7 @@ function animate(){
       ball.dx = -(ball.dx);
     }
     if(ball.y + ball.rad >= innerHeight-ball.dy || ball.y - ball.rad <= 0){
-      ball.dy = - (ball.dy / 1.1);
+      ball.dy = - (ball.dy/1.05);
     }
     ball.x += ball.dx
     ball.y += ball.dy;
@@ -86,8 +86,12 @@ function animate(){
   ctx.stroke();
   paddle.x = mouseX;
 
-  ctx.font = "30px Arial";
+  ctx.font = "30px Comic Sans MS";
   ctx.fillText("Score: " + count, 10, 50);
+
+  if (balls.length === 0){
+    ctx.fillText("Score: " + count + "                                                                       nice", 10, 50);
+  }
 }
 
 function Ball(){
