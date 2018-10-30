@@ -3,16 +3,11 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-p {
-  text-align: center;
-  font-size: 300px;
-  margin-top: 0px;
-}
 </style>
 </head>
 <body>
 
-<p id="demo"></p>
+<canvas id = "cnv"></canvas>
 
 <script>
 
@@ -20,12 +15,20 @@ var h = prompt("Please enter the number of hours", "0");
 var m = prompt("Please enter the number of minutes", "0");
 var s = prompt("Please enter the number of seconds", "0");
 
+var canvas;
+var ctx;// This is a better name for a global variable
+canvas = document.getElementById('cnv');
+  // Set the dimensions of the canvas
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+canvas.style.border = 'solid black 2px';
+canvas.style.backgroundColor = 'rgb(0, 0, 0)';
+  // get the context
+ctx = canvas.getContext('2d'); // This is the context
+
 // Update the count down every 1 second
 var x = setInterval(function() {
-
-    // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = h + "h "
-    + m+ "m " + s + "s ";
+    console.log(h +":" + m + ":" + s);
 
     // If the count down is over, write some text
     if (h == 0 && m == 0 & s == 0) {
@@ -41,7 +44,36 @@ var x = setInterval(function() {
     } else {
       s = s - 1;
     }
-}, 1000);
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    ctx.beginPath();
+    ctx.arc((canvas.width/2)-500, 500, 150, 0, Math.PI*2*((h-0)/(3-0)));
+    ctx.lineTo((canvas.width/2)-500, 500);
+    ctx.lineTo((canvas.width/2)-425, 500);
+    ctx.fillStyle = 'rgb(255, 0, 0)';
+    ctx.fill();
+    ctx.strokeStyle = 'rgb(255, 0, 0)';
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.arc(canvas.width/2, 500, 150, 0, Math.PI*2*((m-0)/(60-0)));
+    ctx.lineTo((canvas.width/2), 500);
+    ctx.lineTo((canvas.width/2)+75, 500);
+    ctx.fillStyle = 'rgb(0, 255, 0)';
+    ctx.fill();
+    ctx.strokeStyle = 'rgb(0, 255, 0)';
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.arc((canvas.width/2)+500, 500, 150, 0, Math.PI*2*((s-0)/(60-0)));
+    ctx.lineTo((canvas.width/2)+500, 500);
+    ctx.lineTo((canvas.width/2)+575, 500);
+    ctx.fillStyle = 'rgb(0, 0, 255)';
+    ctx.fill();
+    ctx.strokeStyle = 'rgb(0, 0, 255)';
+    ctx.stroke();
+  }, 1000);
 </script>
 
 </body>
