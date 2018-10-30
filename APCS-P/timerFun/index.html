@@ -46,6 +46,7 @@ var x = setInterval(function() {
     }
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.font="100px Comic Sans MS";
 
     ctx.beginPath();
     ctx.arc((canvas.width/2)-500, 500, 150, 0, Math.PI*2*((h-0)/(3-0)));
@@ -55,6 +56,8 @@ var x = setInterval(function() {
     ctx.fill();
     ctx.strokeStyle = 'rgb(255, 0, 0)';
     ctx.stroke();
+    ctx.fillStyle = 'rgb(255, 255, 255)';
+    ctx.fillText(h, (canvas.width/2)-550, 525);
 
     ctx.beginPath();
     ctx.arc(canvas.width/2, 500, 150, 0, Math.PI*2*((m-0)/(60-0)));
@@ -64,6 +67,8 @@ var x = setInterval(function() {
     ctx.fill();
     ctx.strokeStyle = 'rgb(0, 255, 0)';
     ctx.stroke();
+    ctx.fillStyle = 'rgb(255, 255, 255)';
+    ctx.fillText(m, (canvas.width/2)-50, 525);
 
     ctx.beginPath();
     ctx.arc((canvas.width/2)+500, 500, 150, 0, Math.PI*2*((s-0)/(60-0)));
@@ -73,6 +78,8 @@ var x = setInterval(function() {
     ctx.fill();
     ctx.strokeStyle = 'rgb(0, 0, 255)';
     ctx.stroke();
+    ctx.fillStyle = 'rgb(255, 255, 255)';
+    ctx.fillText(s, (canvas.width/2)+450, 525);
   }, 1000);
 </script>
 
