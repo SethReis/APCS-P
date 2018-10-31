@@ -14,6 +14,7 @@
 var h = prompt("Please enter the number of hours", "0");
 var m = prompt("Please enter the number of minutes", "0");
 var s = prompt("Please enter the number of seconds", "0");
+var count;
 
 var canvas;
 var ctx;// This is a better name for a global variable
@@ -28,23 +29,7 @@ ctx = canvas.getContext('2d'); // This is the context
 
 // Update the count down every 1 second
 var x = setInterval(function() {
-    console.log(h +":" + m + ":" + s);
-
-    // If the count down is over, write some text
-    if (h == 0 && m == 0 & s == 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-    } else if (m == 0 && s == 0) {
-        h = h - 1;
-        m = 59;
-        s = 59;
-    } else if (s == 0){
-      m = m - 1;
-      s = 59;
-    } else {
-      s = s - 1;
-    }
-
+    count = Math.random();
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.font="100px Comic Sans MS";
 
@@ -79,7 +64,25 @@ var x = setInterval(function() {
     ctx.strokeStyle = 'rgb(0, 0, 255)';
     ctx.stroke();
     ctx.fillStyle = 'rgb(255, 255, 255)';
-    ctx.fillText(s, (canvas.width/2)+450, 525);
+    if (count >= 0.9){
+      ctx.fillText(Math.floor(Math.random()*60), (canvas.width/2)+450, 525);
+    } else {
+      ctx.fillText(s, (canvas.width/2)+450, 525);
+    }
+
+    // If the count down is over, write some text
+    if (h == 0 && m == 0 & s == 0) {
+        clearInterval(x);
+    } else if (m == 0 && s == 0) {
+        h = h - 1;
+        m = 59;
+        s = 59;
+    } else if (s == 0){
+      m = m - 1;
+      s = 59;
+    } else {
+      s = s - 1;
+    }
   }, 1000);
 </script>
 
