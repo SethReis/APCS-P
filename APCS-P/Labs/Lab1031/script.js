@@ -12,6 +12,11 @@ function init(){
   canvas.height = window.innerHeight;
   canvas.style.border = 'solid black 2px';
   canvas.style.backgroundColor = 'rgba(0, 0, 0,1.0)';
+
+  $.getJSON("file.json", function(json) {
+	   console.log(json); // show the JSON file content into console
+  });
+
   // get the context
   animate(); // Call to your animate function
 }
