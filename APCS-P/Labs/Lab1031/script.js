@@ -13,8 +13,23 @@ function init(){
   canvas.style.border = 'solid black 2px';
   canvas.style.backgroundColor = 'rgba(0, 0, 0,1.0)';
 
+  var array = [];
+
   $.getJSON("pokedex.json", function(json) {
-	   console.log(json.pokemon[131].name); // show the JSON file content into console
+    for (var i = 0; i < json.pokemon.length; i++){
+      array[i] = json.pokemon[i];
+    }
+
+    for (var j = json.pokemon.length-1; j > 0; j--){
+      for(var k = 0; k < j; k++){
+        if (array[k].name > array[k+1].name){
+          var temp = array[k];
+          array[k] = array[k+1];
+          array[k+1] = temp;
+        }
+      }
+    }
+    console.log(array);
   });
 
   // get the context
