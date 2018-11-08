@@ -9,7 +9,7 @@
       "Poison"
     ],
     "height": "0.71 m",
-    "weight": "6.9 kg",
+    "weight": 6.9,
     "candy": "Bulbasaur Candy",
     "candy_count": 25,
     "egg": "2 km",
@@ -40,7 +40,7 @@
       "Poison"
     ],
     "height": "0.99 m",
-    "weight": "13.0 kg",
+    "weight": 13.0,
     "candy": "Bulbasaur Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -75,7 +75,7 @@
       "Poison"
     ],
     "height": "2.01 m",
-    "weight": "100.0 kg",
+    "weight": 100.0,
     "candy": "Bulbasaur Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.017,
@@ -104,7 +104,7 @@
       "Fire"
     ],
     "height": "0.61 m",
-    "weight": "8.5 kg",
+    "weight": 8.5 ,
     "candy": "Charmander Candy",
     "candy_count": 25,
     "egg": "2 km",
@@ -133,7 +133,7 @@
       "Fire"
     ],
     "height": "1.09 m",
-    "weight": "19.0 kg",
+    "weight": 19.0 ,
     "candy": "Charmander Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -164,7 +164,7 @@
       "Flying"
     ],
     "height": "1.70 m",
-    "weight": "90.5 kg",
+    "weight": 90.5,
     "candy": "Charmander Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0031,
@@ -192,7 +192,7 @@
       "Water"
     ],
     "height": "0.51 m",
-    "weight": "9.0 kg",
+    "weight": 9.0 ,
     "candy": "Squirtle Candy",
     "candy_count": 25,
     "egg": "2 km",
@@ -220,7 +220,7 @@
       "Water"
     ],
     "height": "0.99 m",
-    "weight": "22.5 kg",
+    "weight": 22.5 ,
     "candy": "Squirtle Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -249,7 +249,7 @@
       "Water"
     ],
     "height": "1.60 m",
-    "weight": "85.5 kg",
+    "weight": 85.5 ,
     "candy": "Squirtle Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0067,
@@ -276,7 +276,7 @@
       "Bug"
     ],
     "height": "0.30 m",
-    "weight": "2.9 kg",
+    "weight": 2.9 ,
     "candy": "Caterpie Candy",
     "candy_count": 12,
     "egg": "2 km",
@@ -305,7 +305,7 @@
       "Bug"
     ],
     "height": "0.71 m",
-    "weight": "9.9 kg",
+    "weight": 9.9 ,
     "candy": "Caterpie Candy",
     "candy_count": 50,
     "egg": "Not in Eggs",
@@ -339,7 +339,7 @@
       "Flying"
     ],
     "height": "1.09 m",
-    "weight": "32.0 kg",
+    "weight": 32.0 ,
     "candy": "Caterpie Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.022,
@@ -370,7 +370,7 @@
       "Poison"
     ],
     "height": "0.30 m",
-    "weight": "3.2 kg",
+    "weight": 3.2 ,
     "candy": "Weedle Candy",
     "candy_count": 12,
     "egg": "2 km",
@@ -404,7 +404,7 @@
       "Poison"
     ],
     "height": "0.61 m",
-    "weight": "10.0 kg",
+    "weight": 10.0 ,
     "candy": "Weedle Candy",
     "candy_count": 50,
     "egg": "Not in Eggs",
@@ -439,7 +439,7 @@
       "Poison"
     ],
     "height": "0.99 m",
-    "weight": "29.5 kg",
+    "weight": 29.5 ,
     "candy": "Weedle Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.051,
@@ -469,7 +469,7 @@
       "Flying"
     ],
     "height": "0.30 m",
-    "weight": "1.8 kg",
+    "weight": 1.8 ,
     "candy": "Pidgey Candy",
     "candy_count": 12,
     "egg": "2 km",
@@ -501,7 +501,7 @@
       "Flying"
     ],
     "height": "1.09 m",
-    "weight": "30.0 kg",
+    "weight": 30.0,
     "candy": "Pidgey Candy",
     "candy_count": 50,
     "egg": "Not in Eggs",
@@ -531,7 +531,7 @@
       "Flying"
     ],
     "height": "1.50 m",
-    "weight": "39.5 kg",
+    "weight": 39.5,
     "candy": "Pidgey Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.13,
@@ -558,7 +558,7 @@
       "Normal"
     ],
     "height": "0.30 m",
-    "weight": "3.5 kg",
+    "weight": 3.5,
     "candy": "Rattata Candy",
     "candy_count": 25,
     "egg": "2 km",
@@ -585,7 +585,7 @@
       "Normal"
     ],
     "height": "0.71 m",
-    "weight": "18.5 kg",
+    "weight": 18.5,
     "candy": "Rattata Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.41,
@@ -609,7 +609,7 @@
       "Flying"
     ],
     "height": "0.30 m",
-    "weight": "2.0 kg",
+    "weight": 2.0,
     "candy": "Spearow Candy",
     "candy_count": 50,
     "egg": "2 km",
@@ -638,7 +638,7 @@
       "Flying"
     ],
     "height": "1.19 m",
-    "weight": "38.0 kg",
+    "weight": 38.0,
     "candy": "Spearow Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.15,
@@ -662,7 +662,7 @@
       "Poison"
     ],
     "height": "2.01 m",
-    "weight": "6.9 kg",
+    "weight": 6.9,
     "candy": "Ekans Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -690,7 +690,7 @@
       "Poison"
     ],
     "height": "3.51 m",
-    "weight": "65.0 kg",
+    "weight": 65.0,
     "candy": "Ekans Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.072,
@@ -714,7 +714,7 @@
       "Electric"
     ],
     "height": "0.41 m",
-    "weight": "6.0 kg",
+    "weight": 6.0,
     "candy": "Pikachu Candy",
     "candy_count": 50,
     "egg": "2 km",
@@ -738,7 +738,7 @@
       "Electric"
     ],
     "height": "0.79 m",
-    "weight": "30.0 kg",
+    "weight": 30.0,
     "candy": "Pikachu Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0076,
@@ -761,7 +761,7 @@
       "Ground"
     ],
     "height": "0.61 m",
-    "weight": "12.0 kg",
+    "weight": 12.0,
     "candy": "Sandshrew Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -787,7 +787,7 @@
       "Ground"
     ],
     "height": "0.99 m",
-    "weight": "29.5 kg",
+    "weight": 29.5,
     "candy": "Sandshrew Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.037,
@@ -812,7 +812,7 @@
       "Poison"
     ],
     "height": "0.41 m",
-    "weight": "7.0 kg",
+    "weight": 7.0,
     "candy": "Nidoran ♀ (Female) Candy",
     "candy_count": 25,
     "egg": "5 km",
@@ -843,7 +843,7 @@
       "Poison"
     ],
     "height": "0.79 m",
-    "weight": "20.0 kg",
+    "weight": 20.0,
     "candy": "Nidoran ♀ (Female) Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -876,7 +876,7 @@
       "Ground"
     ],
     "height": "1.30 m",
-    "weight": "60.0 kg",
+    "weight": 60.0,
     "candy": "Nidoran ♀ (Female) Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.012,
@@ -905,7 +905,7 @@
       "Poison"
     ],
     "height": "0.51 m",
-    "weight": "9.0 kg",
+    "weight": 9.0,
     "candy": "Nidoran ♂ (Male) Candy",
     "candy_count": 25,
     "egg": "5 km",
@@ -936,7 +936,7 @@
       "Poison"
     ],
     "height": "0.89 m",
-    "weight": "19.5 kg",
+    "weight": 19.5,
     "candy": "Nidoran ♂ (Male) Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -966,7 +966,7 @@
       "Ground"
     ],
     "height": "1.40 m",
-    "weight": "62.0 kg",
+    "weight": 62.0,
     "candy": "Nidoran ♂ (Male) Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.017,
@@ -995,7 +995,7 @@
       "Normal"
     ],
     "height": "0.61 m",
-    "weight": "7.5 kg",
+    "weight": 7.5,
     "candy": "Clefairy Candy",
     "candy_count": 50,
     "egg": "2 km",
@@ -1022,7 +1022,7 @@
       "Normal"
     ],
     "height": "1.30 m",
-    "weight": "40.0 kg",
+    "weight": 40.0,
     "candy": "Clefairy Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.012,
@@ -1045,7 +1045,7 @@
       "Fire"
     ],
     "height": "0.61 m",
-    "weight": "9.9 kg",
+    "weight": 9.9,
     "candy": "Vulpix Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -1074,7 +1074,7 @@
       "Fire"
     ],
     "height": "1.09 m",
-    "weight": "19.9 kg",
+    "weight": 19.9,
     "candy": "Vulpix Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0077,
@@ -1099,7 +1099,7 @@
       "Normal"
     ],
     "height": "0.51 m",
-    "weight": "5.5 kg",
+    "weight": 5.5,
     "candy": "Jigglypuff Candy",
     "candy_count": 50,
     "egg": "2 km",
@@ -1123,7 +1123,7 @@
       "Normal"
     ],
     "height": "0.99 m",
-    "weight": "12.0 kg",
+    "weight": 12.0,
     "candy": "Jigglypuff Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.018,
@@ -1147,7 +1147,7 @@
       "Flying"
     ],
     "height": "0.79 m",
-    "weight": "7.5 kg",
+    "weight": 7.5,
     "candy": "Zubat Candy",
     "candy_count": 50,
     "egg": "2 km",
@@ -1178,7 +1178,7 @@
       "Flying"
     ],
     "height": "1.60 m",
-    "weight": "55.0 kg",
+    "weight": 55.0,
     "candy": "Zubat Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.42,
@@ -1205,7 +1205,7 @@
       "Poison"
     ],
     "height": "0.51 m",
-    "weight": "5.4 kg",
+    "weight": 5.4,
     "candy": "Oddish Candy",
     "candy_count": 25,
     "egg": "5 km",
@@ -1236,7 +1236,7 @@
       "Poison"
     ],
     "height": "0.79 m",
-    "weight": "8.6 kg",
+    "weight": 8.6,
     "candy": "Oddish Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -1268,7 +1268,7 @@
       "Poison"
     ],
     "height": "1.19 m",
-    "weight": "18.6 kg",
+    "weight": 18.6,
     "candy": "Oddish Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0097,
@@ -1298,7 +1298,7 @@
       "Grass"
     ],
     "height": "0.30 m",
-    "weight": "5.4 kg",
+    "weight": 5.4,
     "candy": "Paras Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -1328,7 +1328,7 @@
       "Grass"
     ],
     "height": "0.99 m",
-    "weight": "29.5 kg",
+    "weight": 29.5,
     "candy": "Paras Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.074,
@@ -1357,7 +1357,7 @@
       "Poison"
     ],
     "height": "0.99 m",
-    "weight": "30.0 kg",
+    "weight": 30.0,
     "candy": "Venonat Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -1388,7 +1388,7 @@
       "Poison"
     ],
     "height": "1.50 m",
-    "weight": "12.5 kg",
+    "weight": 12.5,
     "candy": "Venonat Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.072,
@@ -1414,7 +1414,7 @@
       "Ground"
     ],
     "height": "0.20 m",
-    "weight": "0.8 kg",
+    "weight": 0.8,
     "candy": "Diglett Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -1440,7 +1440,7 @@
       "Ground"
     ],
     "height": "0.71 m",
-    "weight": "33.3 kg",
+    "weight": "33.3 ",
     "candy": "Dugtrio",
     "egg": "Not in Eggs",
     "spawn_chance": 0.014,
@@ -1465,7 +1465,7 @@
       "Normal"
     ],
     "height": "0.41 m",
-    "weight": "4.2 kg",
+    "weight": 4.2,
     "candy": "Meowth Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -1489,7 +1489,7 @@
       "Normal"
     ],
     "height": "0.99 m",
-    "weight": "32.0 kg",
+    "weight": 32.0,
     "candy": "Meowth Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.022,
@@ -1512,7 +1512,7 @@
       "Water"
     ],
     "height": "0.79 m",
-    "weight": "19.6 kg",
+    "weight": 19.6,
     "candy": "Psyduck Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -1537,7 +1537,7 @@
       "Water"
     ],
     "height": "1.70 m",
-    "weight": "76.6 kg",
+    "weight": 76.6,
     "candy": "Psyduck Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.087,
@@ -1561,7 +1561,7 @@
       "Fighting"
     ],
     "height": "0.51 m",
-    "weight": "28.0 kg",
+    "weight": 28.0,
     "candy": "Mankey Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -1590,7 +1590,7 @@
       "Fighting"
     ],
     "height": "0.99 m",
-    "weight": "32.0 kg",
+    "weight": 32.0,
     "candy": "Mankey Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.031,
@@ -1615,7 +1615,7 @@
       "Fire"
     ],
     "height": "0.71 m",
-    "weight": "19.0 kg",
+    "weight": 19.0,
     "candy": "Growlithe Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -1644,7 +1644,7 @@
       "Fire"
     ],
     "height": "1.91 m",
-    "weight": "155.0 kg",
+    "weight": 155.0,
     "candy": "Growlithe Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.017,
@@ -1669,7 +1669,7 @@
       "Water"
     ],
     "height": "0.61 m",
-    "weight": "12.4 kg",
+    "weight": 12.4,
     "candy": "Poliwag Candy",
     "candy_count": 25,
     "egg": "5 km",
@@ -1700,7 +1700,7 @@
       "Water"
     ],
     "height": "0.99 m",
-    "weight": "20.0 kg",
+    "weight": 20.0,
     "candy": "Poliwag Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -1730,7 +1730,7 @@
       "Fighting"
     ],
     "height": "1.30 m",
-    "weight": "54.0 kg",
+    "weight": 54.0 ,
     "candy": "Poliwag Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.011,
@@ -1760,7 +1760,7 @@
       "Psychic"
     ],
     "height": "0.89 m",
-    "weight": "19.5 kg",
+    "weight": 19.5,
     "candy": "Abra Candy",
     "candy_count": 25,
     "egg": "5 km",
@@ -1792,7 +1792,7 @@
       "Psychic"
     ],
     "height": "1.30 m",
-    "weight": "56.5 kg",
+    "weight": 56.5,
     "candy": "Abra Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -1822,7 +1822,7 @@
       "Psychic"
     ],
     "height": "1.50 m",
-    "weight": "48.0 kg",
+    "weight": 48.0,
     "candy": "Abra Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0073,
@@ -1850,7 +1850,7 @@
       "Fighting"
     ],
     "height": "0.79 m",
-    "weight": "19.5 kg",
+    "weight": 19.5,
     "candy": "Machop Candy",
     "candy_count": 25,
     "egg": "5 km",
@@ -1882,7 +1882,7 @@
       "Fighting"
     ],
     "height": "1.50 m",
-    "weight": "70.5 kg",
+    "weight": 70.5,
     "candy": "Machop Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -1912,7 +1912,7 @@
       "Fighting"
     ],
     "height": "1.60 m",
-    "weight": "130.0 kg",
+    "weight": 130.0,
     "candy": "Machop Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0068,
@@ -1941,7 +1941,7 @@
       "Poison"
     ],
     "height": "0.71 m",
-    "weight": "4.0 kg",
+    "weight": 4.0,
     "candy": "Bellsprout Candy",
     "candy_count": 25,
     "egg": "5 km",
@@ -1972,7 +1972,7 @@
       "Poison"
     ],
     "height": "0.99 m",
-    "weight": "6.4 kg",
+    "weight": 6.4,
     "candy": "Bellsprout Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -2004,7 +2004,7 @@
       "Poison"
     ],
     "height": "1.70 m",
-    "weight": "15.5 kg",
+    "weight": 15.5,
     "candy": "Bellsprout Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0059,
@@ -2034,7 +2034,7 @@
       "Poison"
     ],
     "height": "0.89 m",
-    "weight": "45.5 kg",
+    "weight": 45.5,
     "candy": "Tentacool Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2061,7 +2061,7 @@
       "Poison"
     ],
     "height": "1.60 m",
-    "weight": "55.0 kg",
+    "weight": 55.0,
     "candy": "Tentacool Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.082,
@@ -2087,7 +2087,7 @@
       "Ground"
     ],
     "height": "0.41 m",
-    "weight": "20.0 kg",
+    "weight": 20.0,
     "candy": "Geodude Candy",
     "candy_count": 25,
     "egg": "2 km",
@@ -2123,7 +2123,7 @@
       "Ground"
     ],
     "height": "0.99 m",
-    "weight": "105.0 kg",
+    "weight": 105.0,
     "candy": "Geodude Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -2160,7 +2160,7 @@
       "Ground"
     ],
     "height": "1.40 m",
-    "weight": "300.0 kg",
+    "weight": 300.0,
     "candy": "Geodude Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0047,
@@ -2191,7 +2191,7 @@
       "Fire"
     ],
     "height": "0.99 m",
-    "weight": "30.0 kg",
+    "weight": 30.0,
     "candy": "Ponyta Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2220,7 +2220,7 @@
       "Fire"
     ],
     "height": "1.70 m",
-    "weight": "95.0 kg",
+    "weight": 95.0,
     "candy": "Ponyta Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.011,
@@ -2246,7 +2246,7 @@
       "Psychic"
     ],
     "height": "1.19 m",
-    "weight": "36.0 kg",
+    "weight": 36.0,
     "candy": "Slowpoke Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2275,7 +2275,7 @@
       "Psychic"
     ],
     "height": "1.60 m",
-    "weight": "78.5 kg",
+    "weight": 78.5,
     "candy": "Slowpoke Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.036,
@@ -2302,7 +2302,7 @@
       "Electric"
     ],
     "height": "0.30 m",
-    "weight": "6.0 kg",
+    "weight": 6.0,
     "candy": "Magnemite Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2331,7 +2331,7 @@
       "Electric"
     ],
     "height": "0.99 m",
-    "weight": "60.0 kg",
+    "weight": 60.0,
     "candy": "Magnemite Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.023,
@@ -2357,7 +2357,7 @@
       "Flying"
     ],
     "height": "0.79 m",
-    "weight": "15.0 kg",
+    "weight": 15.0,
     "candy": "None",
     "egg": "5 km",
     "spawn_chance": 0.0212,
@@ -2378,7 +2378,7 @@
       "Flying"
     ],
     "height": "1.40 m",
-    "weight": "39.2 kg",
+    "weight": 39.2,
     "candy": "Doduo Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2407,7 +2407,7 @@
       "Flying"
     ],
     "height": "1.80 m",
-    "weight": "85.2 kg",
+    "weight": 85.2,
     "candy": "Doduo Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.22,
@@ -2431,7 +2431,7 @@
       "Water"
     ],
     "height": "1.09 m",
-    "weight": "90.0 kg",
+    "weight": 90.0,
     "candy": "Seel Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2460,7 +2460,7 @@
       "Ice"
     ],
     "height": "1.70 m",
-    "weight": "120.0 kg",
+    "weight": 120.0,
     "candy": "Seel Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.013,
@@ -2486,7 +2486,7 @@
       "Poison"
     ],
     "height": "0.89 m",
-    "weight": "30.0 kg",
+    "weight": 30.0,
     "candy": "Grimer Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2511,7 +2511,7 @@
       "Poison"
     ],
     "height": "1.19 m",
-    "weight": "30.0 kg",
+    "weight": 30.0,
     "candy": "Grimer Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0031,
@@ -2535,7 +2535,7 @@
       "Water"
     ],
     "height": "0.30 m",
-    "weight": "4.0 kg",
+    "weight": 4.0,
     "candy": "Shellder Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2561,7 +2561,7 @@
       "Ice"
     ],
     "height": "1.50 m",
-    "weight": "132.5 kg",
+    "weight": 132.5,
     "candy": "Shellder Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.015,
@@ -2588,7 +2588,7 @@
       "Poison"
     ],
     "height": "1.30 m",
-    "weight": "0.1 kg",
+    "weight": 0.1,
     "candy": "Gastly Candy",
     "candy_count": 25,
     "egg": "5 km",
@@ -2619,7 +2619,7 @@
       "Poison"
     ],
     "height": "1.60 m",
-    "weight": "0.1 kg",
+    "weight": 0.1,
     "candy": "Gastly Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -2654,7 +2654,7 @@
       "Poison"
     ],
     "height": "1.50 m",
-    "weight": "40.5 kg",
+    "weight": 40.5,
     "candy": "Gastly Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0067,
@@ -2684,7 +2684,7 @@
       "Ground"
     ],
     "height": "8.79 m",
-    "weight": "210.0 kg",
+    "weight": 210.0,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.10,
@@ -2708,7 +2708,7 @@
       "Psychic"
     ],
     "height": "0.99 m",
-    "weight": "32.4 kg",
+    "weight": 32.4,
     "candy": "Drowzee Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2737,7 +2737,7 @@
       "Psychic"
     ],
     "height": "1.60 m",
-    "weight": "75.6 kg",
+    "weight": 75.6,
     "candy": "Drowzee Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.10,
@@ -2762,7 +2762,7 @@
       "Water"
     ],
     "height": "0.41 m",
-    "weight": "6.5 kg",
+    "weight": 6.5,
     "candy": "Krabby Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2790,7 +2790,7 @@
       "Water"
     ],
     "height": "1.30 m",
-    "weight": "60.0 kg",
+    "weight": 60.0,
     "candy": "Krabby Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.062,
@@ -2814,7 +2814,7 @@
       "Electric"
     ],
     "height": "0.51 m",
-    "weight": "10.4 kg",
+    "weight": 10.4,
     "candy": "Voltorb Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2841,7 +2841,7 @@
       "Electric"
     ],
     "height": "1.19 m",
-    "weight": "66.6 kg",
+    "weight": 66.6,
     "candy": "Voltorb Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.02,
@@ -2865,7 +2865,7 @@
       "Psychic"
     ],
     "height": "0.41 m",
-    "weight": "2.5 kg",
+    "weight": 2.5,
     "candy": "Exeggcute Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2899,7 +2899,7 @@
       "Psychic"
     ],
     "height": "2.01 m",
-    "weight": "120.0 kg",
+    "weight": 120.0,
     "candy": "Exeggcute Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.014,
@@ -2928,7 +2928,7 @@
       "Ground"
     ],
     "height": "0.41 m",
-    "weight": "6.5 kg",
+    "weight": 6.5,
     "candy": "Cubone Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -2954,7 +2954,7 @@
       "Ground"
     ],
     "height": "0.99 m",
-    "weight": "45.0 kg",
+    "weight": 45.0,
     "candy": "Cubone Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.02,
@@ -2979,7 +2979,7 @@
       "Fighting"
     ],
     "height": "1.50 m",
-    "weight": "49.8 kg",
+    "weight": 49.8,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.02,
@@ -3000,7 +3000,7 @@
       "Fighting"
     ],
     "height": "1.40 m",
-    "weight": "50.2 kg",
+    "weight": 50.2,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.022,
@@ -3021,7 +3021,7 @@
       "Normal"
     ],
     "height": "1.19 m",
-    "weight": "65.5 kg",
+    "weight": 65.5,
     "candy": "None",
     "egg": "5 km",
     "spawn_chance": 0.011,
@@ -3040,7 +3040,7 @@
       "Poison"
     ],
     "height": "0.61 m",
-    "weight": "1.0 kg",
+    "weight": 1.0,
     "candy": "Koffing Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -3065,7 +3065,7 @@
       "Poison"
     ],
     "height": "1.19 m",
-    "weight": "9.5 kg",
+    "weight": 9.5,
     "candy": "Koffing Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.016,
@@ -3090,7 +3090,7 @@
       "Rock"
     ],
     "height": "0.99 m",
-    "weight": "115.0 kg",
+    "weight": 115.0,
     "candy": "Rhyhorn Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -3120,7 +3120,7 @@
       "Rock"
     ],
     "height": "1.91 m",
-    "weight": "120.0 kg",
+    "weight": 120.0,
     "candy": "Rhyhorn Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.022,
@@ -3148,7 +3148,7 @@
       "Normal"
     ],
     "height": "1.09 m",
-    "weight": "34.6 kg",
+    "weight": 34.6,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.013,
@@ -3167,7 +3167,7 @@
       "Grass"
     ],
     "height": "0.99 m",
-    "weight": "35.0 kg",
+    "weight": 35.0,
     "candy": "None",
     "egg": "5 km",
     "spawn_chance": 0.228,
@@ -3190,7 +3190,7 @@
       "Normal"
     ],
     "height": "2.21 m",
-    "weight": "80.0 kg",
+    "weight": 80.0,
     "candy": "None",
     "egg": "5 km",
     "spawn_chance": 0.0086,
@@ -3209,7 +3209,7 @@
       "Water"
     ],
     "height": "0.41 m",
-    "weight": "8.0 kg",
+    "weight": 8.0,
     "candy": "Horsea Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -3234,7 +3234,7 @@
       "Water"
     ],
     "height": "1.19 m",
-    "weight": "25.0 kg",
+    "weight": 25.0,
     "candy": "Horsea Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.034,
@@ -3258,7 +3258,7 @@
       "Water"
     ],
     "height": "0.61 m",
-    "weight": "15.0 kg",
+    "weight": 15.0,
     "candy": "Goldeen Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -3286,7 +3286,7 @@
       "Water"
     ],
     "height": "1.30 m",
-    "weight": "39.0 kg",
+    "weight": 39.0,
     "candy": "Goldeen Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.08,
@@ -3310,7 +3310,7 @@
       "Water"
     ],
     "height": "0.79 m",
-    "weight": "34.5 kg",
+    "weight": 34.5,
     "candy": "Staryu Candy",
     "candy_count": 50,
     "egg": "5 km",
@@ -3339,7 +3339,7 @@
       "Psychic"
     ],
     "height": "1.09 m",
-    "weight": "80.0 kg",
+    "weight": 80.0,
     "candy": "Staryu Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.034,
@@ -3366,7 +3366,7 @@
       "Psychic"
     ],
     "height": "1.30 m",
-    "weight": "54.5 kg",
+    "weight": 54.5,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.0031,
@@ -3388,7 +3388,7 @@
       "Flying"
     ],
     "height": "1.50 m",
-    "weight": "56.0 kg",
+    "weight": 56.0,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.14,
@@ -3412,7 +3412,7 @@
       "Psychic"
     ],
     "height": "1.40 m",
-    "weight": "40.6 kg",
+    "weight": 40.6,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.35,
@@ -3436,7 +3436,7 @@
       "Electric"
     ],
     "height": "1.09 m",
-    "weight": "30.0 kg",
+    "weight": 30.0,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.074,
@@ -3455,7 +3455,7 @@
       "Fire"
     ],
     "height": "1.30 m",
-    "weight": "44.5 kg",
+    "weight": 44.5,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.10,
@@ -3476,7 +3476,7 @@
       "Bug"
     ],
     "height": "1.50 m",
-    "weight": "55.0 kg",
+    "weight": 55.0,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.99,
@@ -3497,7 +3497,7 @@
       "Normal"
     ],
     "height": "1.40 m",
-    "weight": "88.4 kg",
+    "weight": 88.4,
     "candy": "None",
     "egg": "5 km",
     "spawn_chance": 0.12,
@@ -3516,7 +3516,7 @@
       "Water"
     ],
     "height": "0.89 m",
-    "weight": "10.0 kg",
+    "weight": 10.0,
     "candy": "Magikarp Candy",
     "candy_count": 400,
     "egg": "2 km",
@@ -3545,7 +3545,7 @@
       "Flying"
     ],
     "height": "6.50 m",
-    "weight": "235.0 kg",
+    "weight": 235.0,
     "candy": "Magikarp Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0032,
@@ -3570,7 +3570,7 @@
       "Ice"
     ],
     "height": "2.49 m",
-    "weight": "220.0 kg",
+    "weight": 220.0,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.006,
@@ -3592,7 +3592,7 @@
       "Normal"
     ],
     "height": "0.30 m",
-    "weight": "4.0 kg",
+    "weight": 4.0,
     "candy": "None",
     "egg": "Not in Eggs",
     "spawn_chance": 0,
@@ -3611,7 +3611,7 @@
       "Normal"
     ],
     "height": "0.30 m",
-    "weight": "6.5 kg",
+    "weight": 6.5,
     "candy": "Eevee Candy",
     "candy_count": 25,
     "egg": "10 km",
@@ -3644,7 +3644,7 @@
       "Water"
     ],
     "height": "0.99 m",
-    "weight": "29.0 kg",
+    "weight": 29.0,
     "candy": "Eevee Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.014,
@@ -3668,7 +3668,7 @@
       "Electric"
     ],
     "height": "0.79 m",
-    "weight": "24.5 kg",
+    "weight": 24.5,
     "candy": "None",
     "egg": "Not in Eggs",
     "spawn_chance": 0.012,
@@ -3691,7 +3691,7 @@
       "Fire"
     ],
     "height": "0.89 m",
-    "weight": "25.0 kg",
+    "weight": 25.0,
     "candy": "Eevee Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.017,
@@ -3716,7 +3716,7 @@
       "Normal"
     ],
     "height": "0.79 m",
-    "weight": "36.5 kg",
+    "weight": 36.5,
     "candy": "None",
     "egg": "5 km",
     "spawn_chance": 0.012,
@@ -3736,7 +3736,7 @@
       "Water"
     ],
     "height": "0.41 m",
-    "weight": "7.5 kg",
+    "weight": 7.5,
     "candy": "Omanyte Candy",
     "candy_count": 50,
     "egg": "10 km",
@@ -3764,7 +3764,7 @@
       "Water"
     ],
     "height": "0.99 m",
-    "weight": "35.0 kg",
+    "weight": 35.0,
     "candy": "None",
     "egg": "Omanyte Candy",
     "spawn_chance": 0.0061,
@@ -3791,7 +3791,7 @@
       "Water"
     ],
     "height": "0.51 m",
-    "weight": "11.5 kg",
+    "weight": 11.5,
     "candy": "Kabuto Candy",
     "candy_count": 50,
     "egg": "10 km",
@@ -3822,7 +3822,7 @@
       "Water"
     ],
     "height": "1.30 m",
-    "weight": "40.5 kg",
+    "weight": 40.5,
     "candy": "Kabuto Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0032,
@@ -3849,7 +3849,7 @@
       "Flying"
     ],
     "height": "1.80 m",
-    "weight": "59.0 kg",
+    "weight": 59.0,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.018,
@@ -3872,7 +3872,7 @@
       "Normal"
     ],
     "height": "2.11 m",
-    "weight": "460.0 kg",
+    "weight": 460.0,
     "candy": "None",
     "egg": "10 km",
     "spawn_chance": 0.016,
@@ -3892,7 +3892,7 @@
       "Flying"
     ],
     "height": "1.70 m",
-    "weight": "55.4 kg",
+    "weight": 55.4,
     "candy": "None",
     "egg": "Not in Eggs",
     "spawn_chance": 0,
@@ -3915,7 +3915,7 @@
       "Flying"
     ],
     "height": "1.60 m",
-    "weight": "52.6 kg",
+    "weight": 52.6,
     "candy": "None",
     "egg": "Not in Eggs",
     "spawn_chance": 0,
@@ -3936,7 +3936,7 @@
       "Flying"
     ],
     "height": "2.01 m",
-    "weight": "60.0 kg",
+    "weight": 60.0,
     "candy": "None",
     "egg": "Not in Eggs",
     "spawn_chance": 0,
@@ -3957,7 +3957,7 @@
       "Dragon"
     ],
     "height": "1.80 m",
-    "weight": "3.3 kg",
+    "weight": 3.3,
     "candy": "Dratini Candy",
     "candy_count": 25,
     "egg": "10 km",
@@ -3989,7 +3989,7 @@
       "Dragon"
     ],
     "height": "3.99 m",
-    "weight": "16.5 kg",
+    "weight": 16.5,
     "candy": "Dratini Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
@@ -4020,7 +4020,7 @@
       "Flying"
     ],
     "height": "2.21 m",
-    "weight": "210.0 kg",
+    "weight": 210.0,
     "candy": "Dratini Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.0011,
@@ -4049,7 +4049,7 @@
       "Psychic"
     ],
     "height": "2.01 m",
-    "weight": "122.0 kg",
+    "weight": 122.0,
     "candy": "None",
     "egg": "Not in Eggs",
     "spawn_chance": 0,
@@ -4070,7 +4070,7 @@
       "Psychic"
     ],
     "height": "0.41 m",
-    "weight": "4.0 kg",
+    "weight": 4.0,
     "candy": "None",
     "egg": "Not in Eggs",
     "spawn_chance": 0,
