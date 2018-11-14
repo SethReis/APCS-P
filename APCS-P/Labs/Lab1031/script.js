@@ -8,6 +8,7 @@ function init(){
   // Set the dimensions of the canvas
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight*3.5;
+  canvas.style.backgroundColor = 'rgb(0, 0, 0)';
   ctx = canvas.getContext('2d'); // This is the context
   getJSON();
 }
@@ -41,7 +42,7 @@ function display(array){
     ctx.fill();
     ctx.strokeStyle = 'rgb(0, 255, 0)';
     ctx.stroke();
-    ctx.fillStyle = 'rgb(0, 0, 0)';
+    ctx.fillStyle = 'rgb(255, 255, 255)';
     ctx.fillText(array[m].name + ": " + array[m].weight + " kg", 100, (m*20)+100);
   }
 }
