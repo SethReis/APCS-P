@@ -3,7 +3,6 @@ function JSVector(x, y){
   this.y = y;
 }
 
-
 JSVector.prototype.setMag = function(mag){
   var angle = this.getDirection();
   this.x = mag * Math.cos(angle);
