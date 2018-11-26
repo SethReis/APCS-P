@@ -17,7 +17,8 @@ Snake.prototype.update = function(){
     this.segs[0].add(this.vel);
     for (var i = 1; i < this.segs.length; i++){
       var temp = JSVector.subGetNew(this.segs[i], this.segs[i-1]);
-      this.segs[i].add(temp);
+      this.segs[i].sub(this.vel);
+      this.segs[i].sub(temp);
     }
     this.count = 0;
   }
