@@ -3,6 +3,7 @@ var canvas;
 var ctx;// This is a better name for a global variable
 var w = 20;
 var cols, rows;
+const FRAME_RATE=10;
 
 function init(){
   //get the canvas
