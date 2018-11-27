@@ -3,7 +3,6 @@ var canvas;
 var ctx;// This is a better name for a global variable
 var w = 20;
 var cols, rows;
-const FRAME_RATE=10;
 
 function init(){
   //get the canvas
@@ -15,7 +14,7 @@ function init(){
   cols = canvas.width/w;
   canvas.style.backgroundColor = 'rgb(0, 0, 0)';
   ctx = canvas.getContext('2d'); // This is the context
-  snake = new Snake(new JSVector(20, 20), new JSVector(0, -1));
+  snake = new Snake(new JSVector(20, 20), new JSVector(0, 1));
   food = new Food(new JSVector(Math.floor(Math.random*rows), Math.floor(Math.random*cols)));
   window.addEventListener('keypress', function(event){
     keyName = event.key;
@@ -40,7 +39,7 @@ function animate(){
   food.render();
   snake.update();
   snake.render();
-  var distance = food.loc.distance(snake.segs[0]);
+  var distance = food.loc.distance(snake.segs[0][0]);
   if (distance === 0){
     food.move();
     snake.grow();

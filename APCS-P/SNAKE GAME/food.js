@@ -19,7 +19,7 @@ Food.prototype.render = function(){
 Food.prototype.move = function(){
   this.loc = new JSVector(Math.floor(Math.random*rows), Math.floor(Math.random*cols));
   for (var i = 0; i < snake.segs.length; i++){
-    if (this.loc === snake.segs[i].loc){
+    if (this.loc === snake.segs[i][0]){
       move();
     }
   }
