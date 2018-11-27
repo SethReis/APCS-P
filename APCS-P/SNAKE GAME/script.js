@@ -2,7 +2,7 @@ window.onload = init; // Wait for the page to load before we begin animation
 var canvas;
 var ctx;// This is a better name for a global variable
 var w = 20;
-var cols, rows;
+var cols, rows, score;
 
 function init(){
   //get the canvas
@@ -15,7 +15,7 @@ function init(){
   canvas.style.backgroundColor = 'rgb(0, 0, 0)';
   ctx = canvas.getContext('2d'); // This is the context
   snake = new Snake(new JSVector(20, 20), new JSVector(0, 1));
-  food = new Food(new JSVector(Math.floor(Math.random*rows), Math.floor(Math.random*cols)));
+  food = new Food(new JSVector(Math.floor(Math.random()*rows), Math.floor(Math.random()*cols)));
   window.addEventListener('keypress', function(event){
     keyName = event.key;
     if (keyName === "w"){
@@ -35,10 +35,10 @@ function animate(){
   //loops animate function
   requestAnimationFrame(animate);
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  food.update();
   food.render();
   snake.update();
   snake.render();
+  snake.checkCollisions();
   var distance = food.loc.distance(snake.segs[0][0]);
   if (distance === 0){
     food.move();
