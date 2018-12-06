@@ -18,9 +18,11 @@ body{
 }
 
 #score{
+  position: relative;
+  bottom: 60px;
   text-align: center;
   font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 16px;
+  font-size: 50px;
 }
 
 #buttons{
