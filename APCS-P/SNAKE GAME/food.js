@@ -6,9 +6,8 @@ function Food(loc){
 Food.prototype.render = function(){
   ctx.beginPath();
   ctx.rect(this.loc.x*w, this.loc.y*w, w, w)
-  ctx.fillStyle = this.c;
-  ctx.fill();
   ctx.strokeStyle = this.c;
+  ctx.lineWidth = 10;
   ctx.stroke();
 }
 

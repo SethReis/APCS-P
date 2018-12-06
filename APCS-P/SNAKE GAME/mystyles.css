@@ -1,5 +1,28 @@
 body{
-  background-color: #BB99AA;
+  background-image: url('back.png');
   margin-left: 500px;
   margin-top: 50px;
+}
+
+#scoreDiv{
+  width:798px;
+  height:50px;
+  float:top;
+  background-image: url('scoreDiv.png');
+  color: white;
+  border: 1px solid black;
+}
+
+#canvas{
+  float:top;
+}
+
+#score{
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 16px;
+}
+
+#buttons{
+  align-content: center;
 }
